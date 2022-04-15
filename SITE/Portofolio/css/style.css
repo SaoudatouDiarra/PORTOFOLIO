@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(99, 95, 96, 0.95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,8 +265,10 @@ a:focus {
 }
 
 .hero .hero-image img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 40%;
+    max-height: 40%;
+    border-radius: 50%;
+
 }
 
 .hero .hero-content {
@@ -492,9 +494,10 @@ a:focus {
 
 .about .about-img img {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 50%;
     object-fit: cover;
+    margin-left: 20%;
 }
 
 .about .about-content {
@@ -1216,7 +1219,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: #9c8486;
 }
 
 .testimonial .container {
@@ -1306,7 +1309,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
+    background: #7a7777;
 }
 
 .contact .container-fluid {
@@ -1317,7 +1320,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #EF233C;
+    background: #7a7777;
 }
 
 .contact .contact-form input {
@@ -1465,7 +1468,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    background: #7a7777;
 }
 
 .footer .container-fluid {
